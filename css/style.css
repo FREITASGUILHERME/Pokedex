@@ -6,7 +6,28 @@
     font-family: 'Oxanium', cursive;
 }
 
-body main {
-    margin-top: 1%;
-    background-image: url(images/background.png);
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, blue, #fff);
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 0.3%;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_image {
+    position: absolute;
+    bottom: 58%;
+    left: 46%;
+    transform: translate(-63%, 150%);
+    height: 10%;
 }
